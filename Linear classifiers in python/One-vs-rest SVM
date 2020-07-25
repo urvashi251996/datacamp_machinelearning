@@ -13,3 +13,5 @@ from sklearn.svm import SVC
 svm_class_1 = SVC()
 svm_class_1.fit(X_train, y_train==1)
 plot_classifier(X_train, y_train==1, svm_class_1)
+-----------------
+Cool, eh?! The non-linear SVM works fine with one-vs-rest on this dataset because it learns to "surround" class 1.
